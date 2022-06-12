@@ -10,8 +10,9 @@ import SwiftUI
 @main
 struct SwiftUIEducationIOSApp: App {
     var body: some Scene {
-        WindowGroup {
-            ContentView()
+        let extractedExpr: WindowGroup<ContentView> = WindowGroup {
+            ContentView(guess: RGB())
         }
+        extractedExpr
     }
 }
