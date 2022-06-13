@@ -17,6 +17,10 @@
 		2D1B436D2855E8B7006198FA /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D1B436A2855E8B7006198FA /* Game.swift */; };
 		2D1B436E2855E8B7006198FA /* RGB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D1B436B2855E8B7006198FA /* RGB.swift */; };
 		2D1B436F2855E8B7006198FA /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D1B436C2855E8B7006198FA /* ColorExtension.swift */; };
+		2D1B437128575036006198FA /* ColorCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D1B437028575036006198FA /* ColorCircle.swift */; };
+		2D1B4378285752CA006198FA /* ViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D1B4377285752CA006198FA /* ViewExtension.swift */; };
+		2D1B437A28576F44006198FA /* NeuButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D1B437928576F44006198FA /* NeuButtonStyle.swift */; };
+		2D1B437C2857747D006198FA /* BevelText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D1B437B2857747D006198FA /* BevelText.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +54,10 @@
 		2D1B436A2855E8B7006198FA /* Game.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 		2D1B436B2855E8B7006198FA /* RGB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RGB.swift; sourceTree = "<group>"; };
 		2D1B436C2855E8B7006198FA /* ColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		2D1B437028575036006198FA /* ColorCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorCircle.swift; sourceTree = "<group>"; };
+		2D1B4377285752CA006198FA /* ViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExtension.swift; sourceTree = "<group>"; };
+		2D1B437928576F44006198FA /* NeuButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeuButtonStyle.swift; sourceTree = "<group>"; };
+		2D1B437B2857747D006198FA /* BevelText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BevelText.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,11 +108,10 @@
 		2D1B433E2855E459006198FA /* SwiftUIEducationIOS */ = {
 			isa = PBXGroup;
 			children = (
-				2D1B433F2855E459006198FA /* SwiftUIEducationIOSApp.swift */,
-				2D1B43412855E459006198FA /* ContentView.swift */,
-				2D1B43692855E8B7006198FA /* Model */,
+				2D1B4375285752A3006198FA /* RGBullsEyeApp */,
 				2D1B43432855E45A006198FA /* Assets.xcassets */,
 				2D1B43452855E45A006198FA /* Preview Content */,
+				2D1B437428575287006198FA /* Extension */,
 			);
 			path = SwiftUIEducationIOS;
 			sourceTree = "<group>";
@@ -142,6 +149,35 @@
 				2D1B436C2855E8B7006198FA /* ColorExtension.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		2D1B437428575287006198FA /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				2D1B4376285752B4006198FA /* ViewExtension */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		2D1B4375285752A3006198FA /* RGBullsEyeApp */ = {
+			isa = PBXGroup;
+			children = (
+				2D1B433F2855E459006198FA /* SwiftUIEducationIOSApp.swift */,
+				2D1B43412855E459006198FA /* ContentView.swift */,
+				2D1B437028575036006198FA /* ColorCircle.swift */,
+				2D1B43692855E8B7006198FA /* Model */,
+				2D1B437928576F44006198FA /* NeuButtonStyle.swift */,
+				2D1B437B2857747D006198FA /* BevelText.swift */,
+			);
+			path = RGBullsEyeApp;
+			sourceTree = "<group>";
+		};
+		2D1B4376285752B4006198FA /* ViewExtension */ = {
+			isa = PBXGroup;
+			children = (
+				2D1B4377285752CA006198FA /* ViewExtension.swift */,
+			);
+			path = ViewExtension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -276,9 +312,13 @@
 			files = (
 				2D1B43422855E459006198FA /* ContentView.swift in Sources */,
 				2D1B436D2855E8B7006198FA /* Game.swift in Sources */,
+				2D1B437C2857747D006198FA /* BevelText.swift in Sources */,
 				2D1B43402855E459006198FA /* SwiftUIEducationIOSApp.swift in Sources */,
+				2D1B4378285752CA006198FA /* ViewExtension.swift in Sources */,
+				2D1B437A28576F44006198FA /* NeuButtonStyle.swift in Sources */,
 				2D1B436E2855E8B7006198FA /* RGB.swift in Sources */,
 				2D1B436F2855E8B7006198FA /* ColorExtension.swift in Sources */,
+				2D1B437128575036006198FA /* ColorCircle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
