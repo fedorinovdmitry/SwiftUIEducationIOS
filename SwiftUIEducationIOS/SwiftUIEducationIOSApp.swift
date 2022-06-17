@@ -12,7 +12,15 @@ struct SwiftUIEducationIOSApp: App {
     var body: some Scene {
         WindowGroup {
 //            ContentView(guess: RGB())
-            SwiftCalcView()
+//            SwiftCalcView()
+            WelcomeView()
         }
     }
 }
+
+struct SwiftUIEducationIOSApp_Previews: PreviewProvider {
+  static var previews: some View {
+    EmptyView()
+  }
+}
+
