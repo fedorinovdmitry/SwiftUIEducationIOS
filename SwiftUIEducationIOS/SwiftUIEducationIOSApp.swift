@@ -9,18 +9,26 @@ import SwiftUI
 
 @main
 struct SwiftUIEducationIOSApp: App {
+    let userManager = UserManager()
+    
+    init() {
+      userManager.load()
+    }
+    
     var body: some Scene {
         WindowGroup {
 //            ContentView(guess: RGB())
 //            SwiftCalcView()
-            WelcomeView()
+//            WelcomeView()
+            RegisterView()
+                .environmentObject(userManager)
         }
     }
 }
 
 struct SwiftUIEducationIOSApp_Previews: PreviewProvider {
   static var previews: some View {
-    EmptyView()
+      RegisterView()
   }
 }
 

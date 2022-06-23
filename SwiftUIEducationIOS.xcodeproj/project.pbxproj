@@ -34,6 +34,22 @@
 		2D3FDC68285A6A5D002C6480 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3FDC66285A6A5D002C6480 /* WelcomeView.swift */; };
 		2DC240CB285BDDAB003A82BB /* HorizontallyAlignedLabelStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC240CA285BDDAB003A82BB /* HorizontallyAlignedLabelStyle.swift */; };
 		2DC240CC285BDDAB003A82BB /* HorizontallyAlignedLabelStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC240CA285BDDAB003A82BB /* HorizontallyAlignedLabelStyle.swift */; };
+		2DC240DC2860EC5F003A82BB /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC240D92860EC5F003A82BB /* UserManager.swift */; };
+		2DC240DD2860EC5F003A82BB /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC240D92860EC5F003A82BB /* UserManager.swift */; };
+		2DC240DE2860EC5F003A82BB /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC240DA2860EC5F003A82BB /* Profile.swift */; };
+		2DC240DF2860EC5F003A82BB /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC240DA2860EC5F003A82BB /* Profile.swift */; };
+		2DC240E02860EC5F003A82BB /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC240DB2860EC5F003A82BB /* Settings.swift */; };
+		2DC240E12860EC5F003A82BB /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC240DB2860EC5F003A82BB /* Settings.swift */; };
+		2DC240E42860ED0B003A82BB /* WelcomeBackgroundImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC240E32860ED0B003A82BB /* WelcomeBackgroundImage.swift */; };
+		2DC240E52860ED0B003A82BB /* WelcomeBackgroundImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC240E32860ED0B003A82BB /* WelcomeBackgroundImage.swift */; };
+		2DC240E72860EE0A003A82BB /* LogoImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC240E62860EE0A003A82BB /* LogoImage.swift */; };
+		2DC240E82860EE0A003A82BB /* LogoImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC240E62860EE0A003A82BB /* LogoImage.swift */; };
+		2DC240EA2860EEAB003A82BB /* WelcomeMessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC240E92860EEAB003A82BB /* WelcomeMessageView.swift */; };
+		2DC240EB2860EEAB003A82BB /* WelcomeMessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC240E92860EEAB003A82BB /* WelcomeMessageView.swift */; };
+		2DC240EF2860EF68003A82BB /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC240EE2860EF68003A82BB /* RegisterView.swift */; };
+		2DC240F02860EF68003A82BB /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC240EE2860EF68003A82BB /* RegisterView.swift */; };
+		2DC240F22860F609003A82BB /* BorderedViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC240F12860F609003A82BB /* BorderedViewModifier.swift */; };
+		2DC240F32860F609003A82BB /* BorderedViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC240F12860F609003A82BB /* BorderedViewModifier.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -87,6 +103,14 @@
 		2D3FDC62285A6A18002C6480 /* SwiftUIEducationMacOs.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SwiftUIEducationMacOs.entitlements; sourceTree = "<group>"; };
 		2D3FDC66285A6A5D002C6480 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
 		2DC240CA285BDDAB003A82BB /* HorizontallyAlignedLabelStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontallyAlignedLabelStyle.swift; sourceTree = "<group>"; };
+		2DC240D92860EC5F003A82BB /* UserManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
+		2DC240DA2860EC5F003A82BB /* Profile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		2DC240DB2860EC5F003A82BB /* Settings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		2DC240E32860ED0B003A82BB /* WelcomeBackgroundImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeBackgroundImage.swift; sourceTree = "<group>"; };
+		2DC240E62860EE0A003A82BB /* LogoImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoImage.swift; sourceTree = "<group>"; };
+		2DC240E92860EEAB003A82BB /* WelcomeMessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeMessageView.swift; sourceTree = "<group>"; };
+		2DC240EE2860EF68003A82BB /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		2DC240F12860F609003A82BB /* BorderedViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderedViewModifier.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -251,6 +275,7 @@
 		2D3FDC43285A65E1002C6480 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				2DC240D82860EC54003A82BB /* Profile */,
 				2D3FDC50285A697E002C6480 /* Welcome */,
 				2D3FDC49285A65E1002C6480 /* HomeView.swift */,
 			);
@@ -262,6 +287,8 @@
 			children = (
 				2D3FDC66285A6A5D002C6480 /* WelcomeView.swift */,
 				2DC240CA285BDDAB003A82BB /* HorizontallyAlignedLabelStyle.swift */,
+				2DC240EE2860EF68003A82BB /* RegisterView.swift */,
+				2DC240EC2860EF09003A82BB /* Components */,
 			);
 			path = Welcome;
 			sourceTree = "<group>";
@@ -286,6 +313,27 @@
 				2D3FDC60285A6A18002C6480 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2DC240D82860EC54003A82BB /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				2DC240DA2860EC5F003A82BB /* Profile.swift */,
+				2DC240DB2860EC5F003A82BB /* Settings.swift */,
+				2DC240D92860EC5F003A82BB /* UserManager.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		2DC240EC2860EF09003A82BB /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				2DC240E32860ED0B003A82BB /* WelcomeBackgroundImage.swift */,
+				2DC240E62860EE0A003A82BB /* LogoImage.swift */,
+				2DC240E92860EEAB003A82BB /* WelcomeMessageView.swift */,
+				2DC240F12860F609003A82BB /* BorderedViewModifier.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -449,14 +497,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DC240DE2860EC5F003A82BB /* Profile.swift in Sources */,
+				2DC240E42860ED0B003A82BB /* WelcomeBackgroundImage.swift in Sources */,
+				2DC240E72860EE0A003A82BB /* LogoImage.swift in Sources */,
 				2D1B43422855E459006198FA /* ContentView.swift in Sources */,
 				2D1B436D2855E8B7006198FA /* Game.swift in Sources */,
 				2D3FDC4E285A65E1002C6480 /* HomeView.swift in Sources */,
 				2D1B437C2857747D006198FA /* BevelText.swift in Sources */,
 				2D1B4383285785D9006198FA /* MemoryView.swift in Sources */,
+				2DC240E02860EC5F003A82BB /* Settings.swift in Sources */,
 				2D1B43402855E459006198FA /* SwiftUIEducationIOSApp.swift in Sources */,
+				2DC240DC2860EC5F003A82BB /* UserManager.swift in Sources */,
+				2DC240EF2860EF68003A82BB /* RegisterView.swift in Sources */,
+				2DC240F22860F609003A82BB /* BorderedViewModifier.swift in Sources */,
 				2D1B4378285752CA006198FA /* ViewExtension.swift in Sources */,
 				2D1B4381285785D9006198FA /* SwiftCalcView.swift in Sources */,
+				2DC240EA2860EEAB003A82BB /* WelcomeMessageView.swift in Sources */,
 				2DC240CB285BDDAB003A82BB /* HorizontallyAlignedLabelStyle.swift in Sources */,
 				2D1B437A28576F44006198FA /* NeuButtonStyle.swift in Sources */,
 				2D1B4382285785D9006198FA /* DisplayView.swift in Sources */,
@@ -488,9 +544,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DC240F02860EF68003A82BB /* RegisterView.swift in Sources */,
 				2D3FDC5C285A6A17002C6480 /* ContentView.swift in Sources */,
+				2DC240F32860F609003A82BB /* BorderedViewModifier.swift in Sources */,
+				2DC240DF2860EC5F003A82BB /* Profile.swift in Sources */,
 				2D3FDC68285A6A5D002C6480 /* WelcomeView.swift in Sources */,
+				2DC240EB2860EEAB003A82BB /* WelcomeMessageView.swift in Sources */,
+				2DC240E82860EE0A003A82BB /* LogoImage.swift in Sources */,
 				2DC240CC285BDDAB003A82BB /* HorizontallyAlignedLabelStyle.swift in Sources */,
+				2DC240E12860EC5F003A82BB /* Settings.swift in Sources */,
+				2DC240DD2860EC5F003A82BB /* UserManager.swift in Sources */,
+				2DC240E52860ED0B003A82BB /* WelcomeBackgroundImage.swift in Sources */,
 				2D3FDC5A285A6A17002C6480 /* SwiftUIEducationMacOsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
