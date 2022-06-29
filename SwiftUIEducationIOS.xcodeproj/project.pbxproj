@@ -32,6 +32,25 @@
 		2D3FDC61285A6A18002C6480 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D3FDC60285A6A18002C6480 /* Preview Assets.xcassets */; };
 		2D3FDC67285A6A5D002C6480 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3FDC66285A6A5D002C6480 /* WelcomeView.swift */; };
 		2D3FDC68285A6A5D002C6480 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3FDC66285A6A5D002C6480 /* WelcomeView.swift */; };
+		2DA286B92864DAF5006AADB7 /* ChallengesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DA286B22864DAF5006AADB7 /* ChallengesViewModel.swift */; };
+		2DA286BA2864DAF5006AADB7 /* ChallengesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DA286B22864DAF5006AADB7 /* ChallengesViewModel.swift */; };
+		2DA286BB2864DAF5006AADB7 /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DA286B32864DAF5006AADB7 /* QuestionView.swift */; };
+		2DA286BC2864DAF5006AADB7 /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DA286B32864DAF5006AADB7 /* QuestionView.swift */; };
+		2DA286BD2864DAF5006AADB7 /* ChallengeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DA286B42864DAF5006AADB7 /* ChallengeView.swift */; };
+		2DA286BE2864DAF5006AADB7 /* ChallengeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DA286B42864DAF5006AADB7 /* ChallengeView.swift */; };
+		2DA286BF2864DAF5006AADB7 /* PracticeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DA286B52864DAF5006AADB7 /* PracticeView.swift */; };
+		2DA286C02864DAF5006AADB7 /* PracticeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DA286B52864DAF5006AADB7 /* PracticeView.swift */; };
+		2DA286C12864DAF5006AADB7 /* ChoicesRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DA286B62864DAF5006AADB7 /* ChoicesRow.swift */; };
+		2DA286C22864DAF5006AADB7 /* ChoicesRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DA286B62864DAF5006AADB7 /* ChoicesRow.swift */; };
+		2DA286C32864DAF5006AADB7 /* CongratulationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DA286B72864DAF5006AADB7 /* CongratulationsView.swift */; };
+		2DA286C42864DAF5006AADB7 /* CongratulationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DA286B72864DAF5006AADB7 /* CongratulationsView.swift */; };
+		2DA286C52864DAF5006AADB7 /* ChoicesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DA286B82864DAF5006AADB7 /* ChoicesView.swift */; };
+		2DA286C62864DAF5006AADB7 /* ChoicesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DA286B82864DAF5006AADB7 /* ChoicesView.swift */; };
+		2DA286C92864DB20006AADB7 /* StarterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DA286C72864DB20006AADB7 /* StarterView.swift */; };
+		2DA286CA2864DB20006AADB7 /* StarterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DA286C72864DB20006AADB7 /* StarterView.swift */; };
+		2DA286CB2864DB20006AADB7 /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DA286C82864DB20006AADB7 /* HistoryView.swift */; };
+		2DA286CC2864DB20006AADB7 /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DA286C82864DB20006AADB7 /* HistoryView.swift */; };
+		2DA286E42869FD21006AADB7 /* ChallengeViewPlayground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DA286E32869FD21006AADB7 /* ChallengeViewPlayground.swift */; };
 		2DC240CB285BDDAB003A82BB /* HorizontallyAlignedLabelStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC240CA285BDDAB003A82BB /* HorizontallyAlignedLabelStyle.swift */; };
 		2DC240CC285BDDAB003A82BB /* HorizontallyAlignedLabelStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC240CA285BDDAB003A82BB /* HorizontallyAlignedLabelStyle.swift */; };
 		2DC240DC2860EC5F003A82BB /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC240D92860EC5F003A82BB /* UserManager.swift */; };
@@ -102,6 +121,16 @@
 		2D3FDC60285A6A18002C6480 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2D3FDC62285A6A18002C6480 /* SwiftUIEducationMacOs.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SwiftUIEducationMacOs.entitlements; sourceTree = "<group>"; };
 		2D3FDC66285A6A5D002C6480 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		2DA286B22864DAF5006AADB7 /* ChallengesViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChallengesViewModel.swift; sourceTree = "<group>"; };
+		2DA286B32864DAF5006AADB7 /* QuestionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionView.swift; sourceTree = "<group>"; };
+		2DA286B42864DAF5006AADB7 /* ChallengeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChallengeView.swift; sourceTree = "<group>"; };
+		2DA286B52864DAF5006AADB7 /* PracticeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PracticeView.swift; sourceTree = "<group>"; };
+		2DA286B62864DAF5006AADB7 /* ChoicesRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChoicesRow.swift; sourceTree = "<group>"; };
+		2DA286B72864DAF5006AADB7 /* CongratulationsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CongratulationsView.swift; sourceTree = "<group>"; };
+		2DA286B82864DAF5006AADB7 /* ChoicesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChoicesView.swift; sourceTree = "<group>"; };
+		2DA286C72864DB20006AADB7 /* StarterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StarterView.swift; sourceTree = "<group>"; };
+		2DA286C82864DB20006AADB7 /* HistoryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
+		2DA286E32869FD21006AADB7 /* ChallengeViewPlayground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeViewPlayground.swift; sourceTree = "<group>"; };
 		2DC240CA285BDDAB003A82BB /* HorizontallyAlignedLabelStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontallyAlignedLabelStyle.swift; sourceTree = "<group>"; };
 		2DC240D92860EC5F003A82BB /* UserManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
 		2DC240DA2860EC5F003A82BB /* Profile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
@@ -275,9 +304,12 @@
 		2D3FDC43285A65E1002C6480 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				2DA286B12864DAE8006AADB7 /* Practice */,
 				2DC240D82860EC54003A82BB /* Profile */,
 				2D3FDC50285A697E002C6480 /* Welcome */,
 				2D3FDC49285A65E1002C6480 /* HomeView.swift */,
+				2DA286C82864DB20006AADB7 /* HistoryView.swift */,
+				2DA286C72864DB20006AADB7 /* StarterView.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -313,6 +345,21 @@
 				2D3FDC60285A6A18002C6480 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2DA286B12864DAE8006AADB7 /* Practice */ = {
+			isa = PBXGroup;
+			children = (
+				2DA286B22864DAF5006AADB7 /* ChallengesViewModel.swift */,
+				2DA286B42864DAF5006AADB7 /* ChallengeView.swift */,
+				2DA286B62864DAF5006AADB7 /* ChoicesRow.swift */,
+				2DA286B82864DAF5006AADB7 /* ChoicesView.swift */,
+				2DA286B72864DAF5006AADB7 /* CongratulationsView.swift */,
+				2DA286B52864DAF5006AADB7 /* PracticeView.swift */,
+				2DA286B32864DAF5006AADB7 /* QuestionView.swift */,
+				2DA286E32869FD21006AADB7 /* ChallengeViewPlayground.swift */,
+			);
+			path = Practice;
 			sourceTree = "<group>";
 		};
 		2DC240D82860EC54003A82BB /* Profile */ = {
@@ -497,28 +544,38 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DA286BB2864DAF5006AADB7 /* QuestionView.swift in Sources */,
+				2DA286C12864DAF5006AADB7 /* ChoicesRow.swift in Sources */,
 				2DC240DE2860EC5F003A82BB /* Profile.swift in Sources */,
 				2DC240E42860ED0B003A82BB /* WelcomeBackgroundImage.swift in Sources */,
 				2DC240E72860EE0A003A82BB /* LogoImage.swift in Sources */,
 				2D1B43422855E459006198FA /* ContentView.swift in Sources */,
 				2D1B436D2855E8B7006198FA /* Game.swift in Sources */,
+				2DA286C32864DAF5006AADB7 /* CongratulationsView.swift in Sources */,
 				2D3FDC4E285A65E1002C6480 /* HomeView.swift in Sources */,
+				2DA286B92864DAF5006AADB7 /* ChallengesViewModel.swift in Sources */,
 				2D1B437C2857747D006198FA /* BevelText.swift in Sources */,
 				2D1B4383285785D9006198FA /* MemoryView.swift in Sources */,
 				2DC240E02860EC5F003A82BB /* Settings.swift in Sources */,
+				2DA286E42869FD21006AADB7 /* ChallengeViewPlayground.swift in Sources */,
 				2D1B43402855E459006198FA /* SwiftUIEducationIOSApp.swift in Sources */,
 				2DC240DC2860EC5F003A82BB /* UserManager.swift in Sources */,
 				2DC240EF2860EF68003A82BB /* RegisterView.swift in Sources */,
 				2DC240F22860F609003A82BB /* BorderedViewModifier.swift in Sources */,
 				2D1B4378285752CA006198FA /* ViewExtension.swift in Sources */,
 				2D1B4381285785D9006198FA /* SwiftCalcView.swift in Sources */,
+				2DA286C52864DAF5006AADB7 /* ChoicesView.swift in Sources */,
 				2DC240EA2860EEAB003A82BB /* WelcomeMessageView.swift in Sources */,
 				2DC240CB285BDDAB003A82BB /* HorizontallyAlignedLabelStyle.swift in Sources */,
 				2D1B437A28576F44006198FA /* NeuButtonStyle.swift in Sources */,
 				2D1B4382285785D9006198FA /* DisplayView.swift in Sources */,
 				2D1B436E2855E8B7006198FA /* RGB.swift in Sources */,
+				2DA286CB2864DB20006AADB7 /* HistoryView.swift in Sources */,
+				2DA286BD2864DAF5006AADB7 /* ChallengeView.swift in Sources */,
+				2DA286C92864DB20006AADB7 /* StarterView.swift in Sources */,
 				2D1B436F2855E8B7006198FA /* ColorExtension.swift in Sources */,
 				2D1B437128575036006198FA /* ColorCircle.swift in Sources */,
+				2DA286BF2864DAF5006AADB7 /* PracticeView.swift in Sources */,
 				2D3FDC67285A6A5D002C6480 /* WelcomeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -544,16 +601,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DA286C62864DAF5006AADB7 /* ChoicesView.swift in Sources */,
 				2DC240F02860EF68003A82BB /* RegisterView.swift in Sources */,
 				2D3FDC5C285A6A17002C6480 /* ContentView.swift in Sources */,
 				2DC240F32860F609003A82BB /* BorderedViewModifier.swift in Sources */,
+				2DA286C02864DAF5006AADB7 /* PracticeView.swift in Sources */,
+				2DA286C42864DAF5006AADB7 /* CongratulationsView.swift in Sources */,
 				2DC240DF2860EC5F003A82BB /* Profile.swift in Sources */,
+				2DA286CC2864DB20006AADB7 /* HistoryView.swift in Sources */,
+				2DA286C22864DAF5006AADB7 /* ChoicesRow.swift in Sources */,
 				2D3FDC68285A6A5D002C6480 /* WelcomeView.swift in Sources */,
 				2DC240EB2860EEAB003A82BB /* WelcomeMessageView.swift in Sources */,
 				2DC240E82860EE0A003A82BB /* LogoImage.swift in Sources */,
 				2DC240CC285BDDAB003A82BB /* HorizontallyAlignedLabelStyle.swift in Sources */,
+				2DA286BE2864DAF5006AADB7 /* ChallengeView.swift in Sources */,
 				2DC240E12860EC5F003A82BB /* Settings.swift in Sources */,
 				2DC240DD2860EC5F003A82BB /* UserManager.swift in Sources */,
+				2DA286BC2864DAF5006AADB7 /* QuestionView.swift in Sources */,
+				2DA286CA2864DB20006AADB7 /* StarterView.swift in Sources */,
+				2DA286BA2864DAF5006AADB7 /* ChallengesViewModel.swift in Sources */,
 				2DC240E52860ED0B003A82BB /* WelcomeBackgroundImage.swift in Sources */,
 				2D3FDC5A285A6A17002C6480 /* SwiftUIEducationMacOsApp.swift in Sources */,
 			);
