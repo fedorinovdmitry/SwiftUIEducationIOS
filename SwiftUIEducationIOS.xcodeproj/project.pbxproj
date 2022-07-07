@@ -32,6 +32,8 @@
 		2D3FDC61285A6A18002C6480 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D3FDC60285A6A18002C6480 /* Preview Assets.xcassets */; };
 		2D3FDC67285A6A5D002C6480 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3FDC66285A6A5D002C6480 /* WelcomeView.swift */; };
 		2D3FDC68285A6A5D002C6480 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3FDC66285A6A5D002C6480 /* WelcomeView.swift */; };
+		2D9B7235286CD99E003E0112 /* ScoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D9B7234286CD99E003E0112 /* ScoreView.swift */; };
+		2D9B7236286CD99E003E0112 /* ScoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D9B7234286CD99E003E0112 /* ScoreView.swift */; };
 		2DA286B92864DAF5006AADB7 /* ChallengesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DA286B22864DAF5006AADB7 /* ChallengesViewModel.swift */; };
 		2DA286BA2864DAF5006AADB7 /* ChallengesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DA286B22864DAF5006AADB7 /* ChallengesViewModel.swift */; };
 		2DA286BB2864DAF5006AADB7 /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DA286B32864DAF5006AADB7 /* QuestionView.swift */; };
@@ -121,6 +123,7 @@
 		2D3FDC60285A6A18002C6480 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2D3FDC62285A6A18002C6480 /* SwiftUIEducationMacOs.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SwiftUIEducationMacOs.entitlements; sourceTree = "<group>"; };
 		2D3FDC66285A6A5D002C6480 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		2D9B7234286CD99E003E0112 /* ScoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreView.swift; sourceTree = "<group>"; };
 		2DA286B22864DAF5006AADB7 /* ChallengesViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChallengesViewModel.swift; sourceTree = "<group>"; };
 		2DA286B32864DAF5006AADB7 /* QuestionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionView.swift; sourceTree = "<group>"; };
 		2DA286B42864DAF5006AADB7 /* ChallengeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChallengeView.swift; sourceTree = "<group>"; };
@@ -358,6 +361,7 @@
 				2DA286B52864DAF5006AADB7 /* PracticeView.swift */,
 				2DA286B32864DAF5006AADB7 /* QuestionView.swift */,
 				2DA286E32869FD21006AADB7 /* ChallengeViewPlayground.swift */,
+				2D9B7234286CD99E003E0112 /* ScoreView.swift */,
 			);
 			path = Practice;
 			sourceTree = "<group>";
@@ -547,6 +551,7 @@
 				2DA286BB2864DAF5006AADB7 /* QuestionView.swift in Sources */,
 				2DA286C12864DAF5006AADB7 /* ChoicesRow.swift in Sources */,
 				2DC240DE2860EC5F003A82BB /* Profile.swift in Sources */,
+				2D9B7235286CD99E003E0112 /* ScoreView.swift in Sources */,
 				2DC240E42860ED0B003A82BB /* WelcomeBackgroundImage.swift in Sources */,
 				2DC240E72860EE0A003A82BB /* LogoImage.swift in Sources */,
 				2D1B43422855E459006198FA /* ContentView.swift in Sources */,
@@ -608,6 +613,7 @@
 				2DA286C02864DAF5006AADB7 /* PracticeView.swift in Sources */,
 				2DA286C42864DAF5006AADB7 /* CongratulationsView.swift in Sources */,
 				2DC240DF2860EC5F003A82BB /* Profile.swift in Sources */,
+				2D9B7236286CD99E003E0112 /* ScoreView.swift in Sources */,
 				2DA286CC2864DB20006AADB7 /* HistoryView.swift in Sources */,
 				2DA286C22864DAF5006AADB7 /* ChoicesRow.swift in Sources */,
 				2D3FDC68285A6A5D002C6480 /* WelcomeView.swift in Sources */,

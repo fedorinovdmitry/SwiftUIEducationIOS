@@ -12,14 +12,14 @@ struct RegisterView: View {
     //    enum Field: Hashable {
     //        case name
     //    }
-    
+
     @EnvironmentObject var userManager: UserManager
-    
+
     @FocusState var nameFieldFocused: Bool
-    
+
     @State var amount: Double = 0
     @State var password = ""
-    
+
     var body: some View {
         VStack {
             Spacer()
@@ -31,11 +31,11 @@ struct RegisterView: View {
             .submitLabel(.done)
             .onSubmit(registerUser)
             .bordered()
-            
+
             SecureField.init("Password", text: $password)
               .bordered()
 //              .textFieldStyle(RoundedBorderTextFieldStyle())
-            
+
             HStack {
                 Spacer()
                 Text("\(userManager.profile.name.count)")
@@ -44,7 +44,7 @@ struct RegisterView: View {
                     .padding(.trailing)
             }
                 .padding(.bottom)
-            
+
             HStack {
                 Spacer()
                 Toggle(isOn: $userManager.settings.rememberUser) {
@@ -54,7 +54,7 @@ struct RegisterView: View {
                 }
                 .fixedSize()
             }
-            
+
             Button(action: registerUser) {
                 HStack {
                     Image(systemName: "checkmark")
@@ -67,7 +67,7 @@ struct RegisterView: View {
             }
             .bordered()
             .disabled(!userManager.isUserNameValid())
-            
+
             VStack {
                 HStack {
                     Text("0")
@@ -80,8 +80,8 @@ struct RegisterView: View {
                 }
                 Text("\(amount)")
             }
-            
-            
+
+
             Stepper(
                 "Quantity: \(amount)",
                 value: $amount,
@@ -92,10 +92,10 @@ struct RegisterView: View {
         }
         .background(WelcomeBackgroundImage())
         .padding()
-        
-        
+
+
     }
-    
+
 }
 //
 //struct KuchiTextStyle: TextFieldStyle {
@@ -115,7 +115,7 @@ struct RegisterView: View {
 
 // MARK: - Event Handlers
 extension RegisterView {
-    
+
     func registerUser() {
         nameFieldFocused = false
         if userManager.settings.rememberUser {
@@ -135,3 +135,26 @@ struct RegisterView_Previews: PreviewProvider {
             .environmentObject(user)
     }
 }
+
+//struct RegisterView: View {
+//    @State var name: String = ""
+//    var body: some View {
+//        VStack {
+//            TextField("Type your name...",
+//                      text: $name)
+//                .bordered()
+//            if name.count > 3 {
+//                Text(name)
+//            }
+//        }
+//        .padding()
+//        .background(WelcomeBackgroundImage())
+//        
+//    }
+//    
+//}
+//struct RegisterView_Previews: PreviewProvider {
+//    static var previews: some View {
+//        RegisterView()
+//    }
+//}

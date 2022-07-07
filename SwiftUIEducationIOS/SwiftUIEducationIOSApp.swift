@@ -24,6 +24,7 @@ struct SwiftUIEducationIOSApp: App {
             //                .environmentObject(userManager)
             StarterView()
                 .environmentObject(userManager)
+                .environmentObject(ChallengesViewModel())
         }
     }
 }

@@ -5,8 +5,8 @@ struct CongratulationsView: View {
     let avatarSize: CGFloat = 120
     let userName: String
     
-    @ObservedObject
-    var challengesViewModel = ChallengesViewModel()
+    @EnvironmentObject
+    var challengesViewModel: ChallengesViewModel
     
     init(userName: String) {
         self.userName = userName
