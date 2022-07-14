@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D16612728788D3200989C2D /* Appearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D16612428788D3200989C2D /* Appearance.swift */; };
+		2D16612828788D3200989C2D /* Appearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D16612428788D3200989C2D /* Appearance.swift */; };
+		2D16612928788D3200989C2D /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D16612528788D3200989C2D /* Color+Extension.swift */; };
+		2D16612A28788D3200989C2D /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D16612528788D3200989C2D /* Color+Extension.swift */; };
+		2D16612B28788D3200989C2D /* LocalNotifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D16612628788D3200989C2D /* LocalNotifications.swift */; };
+		2D16612C28788D3200989C2D /* LocalNotifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D16612628788D3200989C2D /* LocalNotifications.swift */; };
+		2D16612F2879322600989C2D /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D16612E2879322600989C2D /* SettingsView.swift */; };
+		2D1661302879322600989C2D /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D16612E2879322600989C2D /* SettingsView.swift */; };
 		2D1B43402855E459006198FA /* SwiftUIEducationIOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D1B433F2855E459006198FA /* SwiftUIEducationIOSApp.swift */; };
 		2D1B43422855E459006198FA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D1B43412855E459006198FA /* ContentView.swift */; };
 		2D1B43442855E45A006198FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D1B43432855E45A006198FA /* Assets.xcassets */; };
@@ -91,6 +99,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2D16612428788D3200989C2D /* Appearance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Appearance.swift; sourceTree = "<group>"; };
+		2D16612528788D3200989C2D /* Color+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
+		2D16612628788D3200989C2D /* LocalNotifications.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalNotifications.swift; sourceTree = "<group>"; };
+		2D16612E2879322600989C2D /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		2D1B433C2855E459006198FA /* SwiftUIEducationIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIEducationIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D1B433F2855E459006198FA /* SwiftUIEducationIOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIEducationIOSApp.swift; sourceTree = "<group>"; };
 		2D1B43412855E459006198FA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -177,6 +189,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2D16612328788D0B00989C2D /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				2D16612428788D3200989C2D /* Appearance.swift */,
+				2D16612528788D3200989C2D /* Color+Extension.swift */,
+				2D16612628788D3200989C2D /* LocalNotifications.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		2D16612D2879321100989C2D /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				2D16612E2879322600989C2D /* SettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
 		2D1B43332855E459006198FA = {
 			isa = PBXGroup;
 			children = (
@@ -307,6 +337,8 @@
 		2D3FDC43285A65E1002C6480 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				2D16612D2879321100989C2D /* Settings */,
+				2D16612328788D0B00989C2D /* Utils */,
 				2DA286B12864DAE8006AADB7 /* Practice */,
 				2DC240D82860EC54003A82BB /* Profile */,
 				2D3FDC50285A697E002C6480 /* Welcome */,
@@ -567,12 +599,15 @@
 				2DC240DC2860EC5F003A82BB /* UserManager.swift in Sources */,
 				2DC240EF2860EF68003A82BB /* RegisterView.swift in Sources */,
 				2DC240F22860F609003A82BB /* BorderedViewModifier.swift in Sources */,
+				2D16612928788D3200989C2D /* Color+Extension.swift in Sources */,
 				2D1B4378285752CA006198FA /* ViewExtension.swift in Sources */,
 				2D1B4381285785D9006198FA /* SwiftCalcView.swift in Sources */,
 				2DA286C52864DAF5006AADB7 /* ChoicesView.swift in Sources */,
 				2DC240EA2860EEAB003A82BB /* WelcomeMessageView.swift in Sources */,
 				2DC240CB285BDDAB003A82BB /* HorizontallyAlignedLabelStyle.swift in Sources */,
 				2D1B437A28576F44006198FA /* NeuButtonStyle.swift in Sources */,
+				2D16612728788D3200989C2D /* Appearance.swift in Sources */,
+				2D16612B28788D3200989C2D /* LocalNotifications.swift in Sources */,
 				2D1B4382285785D9006198FA /* DisplayView.swift in Sources */,
 				2D1B436E2855E8B7006198FA /* RGB.swift in Sources */,
 				2DA286CB2864DB20006AADB7 /* HistoryView.swift in Sources */,
@@ -582,6 +617,7 @@
 				2D1B437128575036006198FA /* ColorCircle.swift in Sources */,
 				2DA286BF2864DAF5006AADB7 /* PracticeView.swift in Sources */,
 				2D3FDC67285A6A5D002C6480 /* WelcomeView.swift in Sources */,
+				2D16612F2879322600989C2D /* SettingsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -609,10 +645,12 @@
 				2DA286C62864DAF5006AADB7 /* ChoicesView.swift in Sources */,
 				2DC240F02860EF68003A82BB /* RegisterView.swift in Sources */,
 				2D3FDC5C285A6A17002C6480 /* ContentView.swift in Sources */,
+				2D16612C28788D3200989C2D /* LocalNotifications.swift in Sources */,
 				2DC240F32860F609003A82BB /* BorderedViewModifier.swift in Sources */,
 				2DA286C02864DAF5006AADB7 /* PracticeView.swift in Sources */,
 				2DA286C42864DAF5006AADB7 /* CongratulationsView.swift in Sources */,
 				2DC240DF2860EC5F003A82BB /* Profile.swift in Sources */,
+				2D16612A28788D3200989C2D /* Color+Extension.swift in Sources */,
 				2D9B7236286CD99E003E0112 /* ScoreView.swift in Sources */,
 				2DA286CC2864DB20006AADB7 /* HistoryView.swift in Sources */,
 				2DA286C22864DAF5006AADB7 /* ChoicesRow.swift in Sources */,
@@ -626,8 +664,10 @@
 				2DA286BC2864DAF5006AADB7 /* QuestionView.swift in Sources */,
 				2DA286CA2864DB20006AADB7 /* StarterView.swift in Sources */,
 				2DA286BA2864DAF5006AADB7 /* ChallengesViewModel.swift in Sources */,
+				2D16612828788D3200989C2D /* Appearance.swift in Sources */,
 				2DC240E52860ED0B003A82BB /* WelcomeBackgroundImage.swift in Sources */,
 				2D3FDC5A285A6A17002C6480 /* SwiftUIEducationMacOsApp.swift in Sources */,
+				2D1661302879322600989C2D /* SettingsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

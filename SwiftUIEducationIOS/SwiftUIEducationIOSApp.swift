@@ -9,6 +9,10 @@ import SwiftUI
 
 @main
 struct SwiftUIEducationIOSApp: App {
+    
+    @AppStorage("appearance")
+    var appearance: Appearance = .automatic
+    
     let userManager = UserManager()
     
     init() {
@@ -25,6 +29,7 @@ struct SwiftUIEducationIOSApp: App {
             StarterView()
                 .environmentObject(userManager)
                 .environmentObject(ChallengesViewModel())
+                .preferredColorScheme(appearance.getColorScheme())
         }
     }
 }
